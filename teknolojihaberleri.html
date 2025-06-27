@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teknoloji Haberleri</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script>
+    function yonlendir() {
+      window.location.href = "https://bu-sayfanin-adresi.com"; 
+    }
+  </script>
+  <style>
+    body {
+      background-color: #212529;
+      color: white;
+    }
+
+    .card {
+      background-color: #343a40;
+      color: white;
+    }
+
+    .card-title, .card-text {
+      color: white; 
+    }
+
+    .card-img-top {
+      max-width: 100%;
+      height: 200px; 
+      object-fit: cover; 
+    }
+
+    .row {
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    .col-md-4 {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .footer {
+      background-color: #212529;
+      color: white;
+    }
+
+    /* Mobil Cihazlar İçin Stil Ayarları */
+    @media (max-width: 768px) { 
+      .row {
+        margin: 0; /* Satırlar arasındaki boşluğu kaldır */
+      }
+
+      .col-md-4 {
+        padding: 15px; /* Kartlar arasına boşluk ekle */
+        width: 100%; /* Kartları tam genişliğe yay */
+        margin-bottom: 15px; /* Kartlar arasına dikey boşluk ekle */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="bg-dark text-white p-3">
+      <div style="text-align: center;">
+        <h1 style="background-color: #343a40; padding: 1rem 2rem; border-radius: 8px; display: inline-block;">Teknoloji Haberleri</h1>
+      </div>
+          </header>
+
+    <main>
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img src="haberler/images/yapayzeka.jpg" class="card-img-top" alt="Haber 1">
+            <div class="card-body">
+              <h5 class="card-title">En İyi Yapay Zeka Hangisi?</h5>
+              <p class="card-text">Günümüzde birbiri ardına piyasaya çıkan yapay zeka botları kullanıcıları kararsız bırakabiliyor. Bu siteyle hepsini deneyebilirsiniz.</p>
+              <a href="haberler/eniyiyapayzeka.html" class="btn btn-primary">Devamını Oku</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img src="haberler/images/unlulerlesohbet.jpg" class="card-img-top" alt="Haber 2">
+            <div class="card-body">
+              <h5 class="card-title">Yapay Zekaya Yeni Bir Özellik.</h5>
+              <p class="card-text">Mark Zuckerberg, Instagram ünlüleri ile yeni dönemde yapay zeka aracılığıyla sohbet edilebileceğini açıkladı. İşte detaylar...</p>
+              <a href="haberler/unlulerlesohbet.html" class="btn btn-primary">Devamını Oku</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img src="haberler/images/chatgpt-o.png" class="card-img-top" alt="Haber 3">
+            <div class="card-body">
+              <h5 class="card-title">O geliyor!</h5>
+              <p class="card-text">Yapay zeka sohbet robotu ChatGPT'nin geliştiricisi OpenAI, ses, görüntü ve metin üzerinden gerçek zamanlı mantık yürütebilen yeni modeli "GPT-4o"yu tanıttı.</p>
+              <a href="haberler/chatgpt-o.html"" class="btn btn-primary">Devamını Oku</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </main>
+
+
+    <footer class="footer text-center p-3 mt-3">
+      <p>&copy; 2024 Demirtaş Yazılım - Teknoloji Haberleri</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
